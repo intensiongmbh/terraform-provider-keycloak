@@ -51,6 +51,7 @@ func KeycloakProvider(client *keycloak.KeycloakClient) *schema.Provider {
 			"keycloak_realm_keystore_rsa":                                resourceKeycloakRealmKeystoreRsa(),
 			"keycloak_realm_keystore_rsa_generated":                      resourceKeycloakRealmKeystoreRsaGenerated(),
 			"keycloak_realm_user_profile":                                resourceKeycloakRealmUserProfile(),
+			"keycloak_user_profile_attribute":                            resourceKeycloakUserProfileAttribute(),
 			"keycloak_realm_localization":                                resourceKeycloakRealmLocalization(),
 			"keycloak_required_action":                                   resourceKeycloakRequiredAction(),
 			"keycloak_group":                                             resourceKeycloakGroup(),
